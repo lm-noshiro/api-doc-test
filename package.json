@@ -6,11 +6,14 @@
   "dependencies": {
     "aglio": "^2.3.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "drakov": "^1.0.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "apidoc": "aglio -i api.md -o api.html",
-    "apidocserver": "aglio -i api.md --server"
+    "apidocserver": "aglio -i api.md --server",
+    "mockapiserver": "drakov -f api.md --watch -p 3010"
   },
   "author": "",
   "license": "ISC"
