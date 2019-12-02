@@ -1,0 +1,17 @@
+{
+  "name": "api-doc-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aglio": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "apidoc": "aglio -i api.md -o api.html",
+    "apidocserver": "aglio -i api.md --server"
+  },
+  "author": "",
+  "license": "ISC"
+}
